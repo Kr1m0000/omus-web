@@ -7,12 +7,12 @@ import Socialfb from "@/assets/Instagram_icon.png";
 
 const Socials = () => {
   return (
-    <div className="flex min-h-[70vh] flex-col items-center justify-center min-h-screen bg-white px-6 sm:px-10 lg:px-20">
+    <div className="flex min-h-[59vh] flex-col items-center justify-center min-h-screen bg-white px-6 sm:px-10 lg:px-20">
       
 
       <div className="flex flex-wrap justify-center gap-8">
         <a
-          href="https://twitter.com/yourprofile"
+          href="https://www.tiktok.com/@omus.tacos"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:scale-105 transition-transform"
@@ -21,14 +21,14 @@ const Socials = () => {
           <Image
             src={SocialTiktok}
             alt="X (Twitter)"
-            width={150}
-            height={150}
+            width={100}
+            height={100}
             className="object-contain"
           />
         </a>
 
         <a
-          href="https://instagram.com/yourprofile"
+          href="https://www.instagram.com/omustacos/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:scale-105 transition-transform"
@@ -37,14 +37,14 @@ const Socials = () => {
           <Image
             src={SocialInsta}
             alt="Instagram"
-            width={150}
-            height={150}
+            width={100}
+            height={100}
             className="object-contain"
           />
         </a>
 
         <a
-          href="https://linkedin.com/in/yourprofile"
+          href="https://www.facebook.com/profile.php?id=61565746771643"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:scale-105 transition-transform"
@@ -53,8 +53,8 @@ const Socials = () => {
           <Image
             src={Socialfb}
             alt="LinkedIn"
-            width={150}
-            height={150}
+            width={100}
+            height={100}
             className="object-contain"
           />
         </a>

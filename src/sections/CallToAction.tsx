@@ -24,9 +24,10 @@ export const CallToAction = () => {
         <div className="section-heading relative">
         <h2 className="section-title mt-5 bg-gradient-to-b from-black to-green-600 text-transparent bg-clip-text">
             N'attendez plus</h2>
-          <p className="section-description mt-5">
-            Inscrivez-vous et allez de l'avant. Bénéficiez de nos divers services digitals
-          </p>
+            <p className="section-description mt-5">
+  Venez savourer nos délicieux plats préparés avec soin et passion. Notre équipe vous attend pour vous offrir une expérience culinaire inoubliable dans un cadre agréable et chaleureux.
+</p>
+
           <motion.img
             src={starImage.src}
             alt="Star Image"
