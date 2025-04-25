@@ -133,10 +133,9 @@ export const Testimonials = () => {
   Nos retours clients
 </h2>
 
-          <p className="section-description mt-5">
-            Des design intuitufs aux fonctions backend avancées notre équipe fait de son mieux pour vous satisfaire
-        
-          </p>
+<p className="section-description mt-5">
+  De la qualité des plats à l'accueil chaleureux, nos clients apprécient notre attention aux détails et notre engagement à offrir une expérience culinaire exceptionnelle. Nous nous efforçons de toujours répondre à leurs attentes et de garantir une satisfaction totale à chaque repas.
+</p>
         </div>
         <div className="flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[738px] overflow-hidden">
           <TestimonialsColumn testimonials={firstColumn} duration={15} />
