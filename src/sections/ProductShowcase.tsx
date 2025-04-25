@@ -1,5 +1,5 @@
 "use client";
-import productImage from "@/assets/omus-wall.jpg";
+import productImage from "@/assets/bg.png";
 import pyramidImage from "@/assets/pizza.png";
 import tubeImage from "@/assets/pizza.png";
 import Image from "next/image";
