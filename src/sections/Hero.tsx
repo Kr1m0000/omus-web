@@ -1,8 +1,8 @@
 "use client";
 import ArrowIcon from "@/assets/arrow-right.svg";
 import cogImage from "@/assets/pizza.png";
-import cylinderImage from "@/assets/tacos.png";
-import noodleImage from "@/assets/tacos.png";
+import cylinderImage from "@/assets/frittes.png";
+import noodleImage from "@/assets/frittes.png";
 import Image from "next/image";
 import {
   motion,
@@ -66,26 +66,26 @@ export const Hero = () => {
                 ease: "easeInOut",
               }}
             />
-            {/* <motion.img
+            <motion.img
               src={cylinderImage.src}
-              width={220}
-              height={220}
+              width={320}
+              height={320}
               alt="Cylinder image"
-              className="hidden md:block -top-8 -left-32 md:absolute"
+              className="hidden md:block -top-8 -left-48 md:absolute"
               style={{
                 translateY: translateY,
               }}
             />
             <motion.img
               src={noodleImage.src}
-              width={220}
+              width={320}
               alt="Noodle image"
-              className="hidden lg:block absolute top-[524px] left-[448px] rotate-[30deg]"
+              className="hidden lg:block absolute top-[524px] left-[490px] rotate-[60deg]"
               style={{
-                rotate: 30,
+                rotate: 180,
                 translateY: translateY,
               }}
-            /> */}
+            />
           </div>
         </div>
       </div>
