@@ -4,10 +4,11 @@ import firebase from "@/assets/cvital.png";
 import supabase from "@/assets/hamou.png";
 import maps from "@/assets/mordj.png";
 import aws from "@/assets/pan.png";
-import unity from "@/assets/mordj.png";
+import unity from "@/assets/Lalla-Khedidja.png";
 import rc from "@/assets/Coca-Cola_logo.svg.png";
 import mongo from "@/assets/sch.png";
 import next from "@/assets/president.png";
+import elio from "@/assets/Elio.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -73,6 +74,11 @@ export const LogoTicker = () => {
               alt="Apex Logo"
               className="logo-ticker-image"
             />
+            <Image
+              src={elio}
+              alt="Apex Logo"
+              className="logo-ticker-image"
+            />
 
             {/* Second set of logos for animation */}
             <Image
@@ -117,6 +123,11 @@ export const LogoTicker = () => {
             />
             <Image
               src={unity}
+              alt="Apex Logo"
+              className="logo-ticker-image"
+            />
+            <Image
+              src={elio}
               alt="Apex Logo"
               className="logo-ticker-image"
             />

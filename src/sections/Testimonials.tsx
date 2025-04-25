@@ -27,6 +27,7 @@ const testimonials = [
     username: "@khaled_badi",
   },
   {
+    //no
     text: "La meilleure expérience culinaire que j'ai eue depuis longtemps. À recommander !",
     imageSrc: avatar3.src,
     name: "Sofia",
@@ -44,27 +45,31 @@ const testimonials = [
     name: "Zahra",
     username: "@zahra_souad",
   },
-  {
+  {  
+    
     text: "L’ambiance chaleureuse et les plats exquis font de cet endroit un incontournable.",
-    imageSrc: avatar6.src,
+    imageSrc: avatar9.src,
     name: "Nabil",
     username: "@nabil_chef",
   },
-  {
+  { 
+    
     text: "Un vrai voyage de saveurs ! Un restaurant à ne pas manquer.",
-    imageSrc: avatar7.src,
+    imageSrc: avatar8.src,
     name: "Lina",
     username: "@lina_foodie",
   },
-  {
+  {  
+    
     text: "Une cuisine raffinée, un service irréprochable. On y reviendra avec plaisir !",
-    imageSrc: avatar8.src,
+    imageSrc: avatar7.src,
     name: "Rachid",
     username: "@rachid_taste",
   },
-  {
+  { 
+      
     text: "Des plats délicieux et une atmosphère agréable. Un moment parfait.",
-    imageSrc: avatar9.src,
+    imageSrc: avatar6.src,
     name: "Samira",
     username: "@samira_dz",
   },
