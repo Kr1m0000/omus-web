@@ -10,9 +10,9 @@ const dmSans = DM_Sans({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "O'Mus",
   description: "Votre plaisir gustatif",
-  icons: {
-    icon: "/favicon.png",
-  },
+  // icons: {
+  //   icon: "/favicon.png",
+  // },
   // openGraph: {
   //   title: "K-Services",
   //   description: "Digital solutions for web and mobile apps.",
