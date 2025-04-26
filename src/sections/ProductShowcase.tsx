@@ -24,7 +24,7 @@ export const ProductShowcase = () => {
             <div className="tag">Notre atelier</div>
           </div>
           <h2 className="section-title mt-5 bg-gradient-to-b from-black to-green-600 text-transparent bg-clip-text">
-          Une place où goût nous réunit.
+          Une place où le goût nous réunit.
           </h2>
 
           <p className="section-description mt-5">
