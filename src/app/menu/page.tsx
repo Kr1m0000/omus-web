@@ -16,6 +16,9 @@ const MenuPage = () => {
         layout="responsive" 
         priority 
       />
+
+
+      
       <Image 
          src={page2}
         alt="Menu Page 2" 
