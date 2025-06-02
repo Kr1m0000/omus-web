@@ -40,7 +40,7 @@ export const Header = () => {
               <h1>Aide</h1> */}
               <Link href="/menu">
                 <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight">
-                  Menu
+                  Notre menu
                 </button>
               </Link>
             </nav>
