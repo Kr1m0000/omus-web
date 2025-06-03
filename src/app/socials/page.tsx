@@ -20,6 +20,7 @@ const Socials = () => {
 
       <div className="flex min-h-[40vh] flex-col items-center justify-center px-6 sm:px-10 lg:px-20">
         <div className="flex flex-nowrap justify-center gap-20">
+          {/* TikTok */}
           <a
             href="https://www.tiktok.com/@omus.tacos"
             target="_blank"
@@ -27,15 +28,18 @@ const Socials = () => {
             className="transition-transform hover:scale-110"
             title="TikTok"
           >
-            <Image
-              src={SocialTiktok}
-              alt="TikTok"
-              width={0}
-              height={0}
-              className="w-[clamp(60px,10vw,120px)] h-auto object-contain"
-            />
+            <div className="bg-white rounded-full p-4 w-[clamp(80px,12vw,140px)] h-[clamp(80px,12vw,140px)] flex items-center justify-center shadow-md">
+              <Image
+                src={SocialTiktok}
+                alt="TikTok"
+                width={64}
+                height={64}
+                className="w-[clamp(40px,6vw,80px)] h-auto object-contain"
+              />
+            </div>
           </a>
 
+          {/* Instagram */}
           <a
             href="https://www.instagram.com/omustacos/"
             target="_blank"
@@ -43,15 +47,18 @@ const Socials = () => {
             className="transition-transform hover:scale-110"
             title="Instagram"
           >
-            <Image
-              src={SocialInsta}
-              alt="Instagram"
-              width={0}
-              height={0}
-              className="w-[clamp(60px,10vw,120px)] h-auto object-contain"
-            />
+            <div className="bg-white rounded-full p-4 w-[clamp(80px,12vw,140px)] h-[clamp(80px,12vw,140px)] flex items-center justify-center shadow-md">
+              <Image
+                src={SocialInsta}
+                alt="Instagram"
+                width={64}
+                height={64}
+                className="w-[clamp(40px,6vw,80px)] h-auto object-contain"
+              />
+            </div>
           </a>
 
+          {/* Facebook */}
           <a
             href="https://www.facebook.com/profile.php?id=61565746771643"
             target="_blank"
@@ -59,13 +66,15 @@ const Socials = () => {
             className="transition-transform hover:scale-110"
             title="Facebook"
           >
-            <Image
-              src={Socialfb}
-              alt="Facebook"
-              width={0}
-              height={0}
-              className="w-[clamp(60px,10vw,120px)] h-auto object-contain"
-            />
+            <div className="bg-white rounded-full p-4 w-[clamp(80px,12vw,140px)] h-[clamp(80px,12vw,140px)] flex items-center justify-center shadow-md">
+              <Image
+                src={Socialfb}
+                alt="Facebook"
+                width={64}
+                height={64}
+                className="w-[clamp(40px,6vw,80px)] h-auto object-contain"
+              />
+            </div>
           </a>
         </div>
       </div>
