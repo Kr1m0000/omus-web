@@ -40,12 +40,12 @@ export const Hero = () => {
               Nous vous accueillons avec passion pour vous faire découvrir une cuisine généreuse, préparée avec des produits de qualité. Que ce soit en famille, entre amis ou entre collègues, chaque repas est une invitation au partage et à la gourmandise.
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
-              <Link href='/login'>
-                <button className="btn btn-primary">Contact</button>
-              </Link>
               <Link href='/socials'>
+                <button className="btn btn-primary">Nos réseaux</button>
+              </Link>
+              <Link href='/login'>
               <button className="btn btn-text gap-1">
-                <span>Nos réseaux</span>
+                <span>Contact</span>
                 <ArrowIcon className="h-5 w-5" />
               </button>
               </Link>
