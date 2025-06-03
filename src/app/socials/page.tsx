@@ -19,7 +19,7 @@ const Socials = () => {
       </div>
 
       <div className="flex min-h-[40vh] flex-col items-center justify-center px-6 sm:px-10 lg:px-20">
-        <div className="flex flex-nowrap justify-center gap-20">
+        <div className="flex flex-nowrap justify-center gap-16">
           {/* TikTok */}
           <a
             href="https://www.tiktok.com/@omus.tacos"
